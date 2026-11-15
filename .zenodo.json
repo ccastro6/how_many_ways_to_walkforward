@@ -1,0 +1,15 @@
+{
+  "title": "How Many Ways to Walk Forward? Design Snooping in Trading-Rule Backtests: replication package",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {"name": "Castro, Carlos A.", "affiliation": "Universidad EAFIT, School of Economics and Finance, Medellín, Colombia", "orcid": "0000-0001-8748-9918"},
+    {"name": "Castro, Rodrigo A.", "affiliation": "Universidad de Valparaíso, Institute of Mathematics, Valparaíso, Chile", "orcid": "0000-0003-0010-7775"},
+    {"name": "Almonacid, Paula M.", "affiliation": "Universidad EAFIT, School of Economics and Finance, Medellín, Colombia", "orcid": "0000-0001-6008-1728"}
+  ],
+  "description": "Replication package for the paper: code (walk-forward family, 351 Sullivan-Timmermann-White trading rules, bootstrap tests across designs), data preparation scripts with file hashes, Monte Carlo and empirical results, figure and table sources, the LaTeX source and the PDF. One command reproduces every number in the paper.",
+  "keywords": ["walk-forward analysis", "backtest overfitting", "data snooping", "multiple testing", "technical trading rules", "bootstrap"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/ccastro6/how_many_ways_to_walkforward", "relation": "isSupplementTo", "resource_type": "publication-article"}
+  ]
+}

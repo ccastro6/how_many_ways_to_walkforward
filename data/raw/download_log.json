@@ -1,0 +1,44 @@
+{
+  "F-F_Research_Data_Factors_daily_CSV.zip": {
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_Factors_daily_CSV.zip",
+    "sha256": "96c23b88e651cbfff3740a53f8225e59ee39893371e96385a1d8125ec2cd9c89",
+    "bytes": 178326,
+    "retrieved_utc": "2026-11-07T02:58:16+00:00"
+  },
+  "Developed_3_Factors_Daily_CSV.zip": {
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Developed_3_Factors_Daily_CSV.zip",
+    "sha256": "3a73ae9ffb33ffd53919f51dc855836967db4cc0cff6c76277d5488cfd26203d",
+    "bytes": 63123,
+    "retrieved_utc": "2026-11-07T02:58:17+00:00"
+  },
+  "North_America_3_Factors_Daily_CSV.zip": {
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/North_America_3_Factors_Daily_CSV.zip",
+    "sha256": "591d2b0fa3b79284aabbb216ad760e29b3bc415d497c057bc7f936faa7bdd408",
+    "bytes": 65357,
+    "retrieved_utc": "2026-11-07T02:58:17+00:00"
+  },
+  "Europe_3_Factors_Daily_CSV.zip": {
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Europe_3_Factors_Daily_CSV.zip",
+    "sha256": "53598ec5af305d321ee93db492a32076fc882f976e67d27eba724d0266d20ad2",
+    "bytes": 64819,
+    "retrieved_utc": "2026-11-07T02:58:17+00:00"
+  },
+  "Japan_3_Factors_Daily_CSV.zip": {
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Japan_3_Factors_Daily_CSV.zip",
+    "sha256": "3fd49c8815c017c0b95c0e47eb493369a1a86d38c0925985bea602237e9e8119",
+    "bytes": 66327,
+    "retrieved_utc": "2026-11-07T02:58:17+00:00"
+  },
+  "Asia_Pacific_ex_Japan_3_Factors_Daily_CSV.zip": {
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Asia_Pacific_ex_Japan_3_Factors_Daily_CSV.zip",
+    "sha256": "19ebd35c21bd81b14a09c6872b40f694c1c2395911bc10aa0e4dc682d076bbf3",
+    "bytes": 65077,
+    "retrieved_utc": "2026-11-07T02:58:18+00:00"
+  },
+  "SP500_fred.csv": {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500",
+    "sha256": "e3d7566c49052717d5f4afd0dd50c0c7056f6e5859c5dc83d2f71437c17c2c77",
+    "bytes": 48922,
+    "retrieved_utc": "2026-11-07T02:58:18+00:00"
+  }
+}

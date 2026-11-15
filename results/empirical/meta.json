@@ -1,0 +1,10 @@
+{
+  "cost_one_way": 0.001,
+  "bootstrap_draws": 1999,
+  "seed": 20261107,
+  "seed_lag": 20261110,
+  "oos_start_index": 1279,
+  "burn_in": 250,
+  "n_designs": 56,
+  "n_rules": 351
+}

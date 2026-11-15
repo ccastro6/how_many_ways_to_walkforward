@@ -1,0 +1,11 @@
+{
+  "dgp": "garch_t",
+  "param": 0.0,
+  "reps": 800,
+  "B": 299,
+  "garch_source": "us_market_fit",
+  "reject_max": 0.03625,
+  "reject_avg": 0.03875,
+  "reject_max_cash": 0.03625,
+  "reject_avg_cash": 0.045
+}

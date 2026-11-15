@@ -1,0 +1,22 @@
+{
+  "dgp": "ar1",
+  "param": 0.08,
+  "reps": 2000,
+  "seed": 201,
+  "T": 5292,
+  "start": 1279,
+  "end": 5292,
+  "n_oos": 4013,
+  "n_designs": 56,
+  "n_rules": 351,
+  "garch": {
+    "omega": 1.2242507085251196e-06,
+    "alpha": 0.09741022020612618,
+    "beta": 0.8956666647431554,
+    "nu": 6.858689789159765
+  },
+  "garch_source": "us_market_fit",
+  "max_abs_shock": 0.5,
+  "seconds": 161.1,
+  "phi": 0.08
+}

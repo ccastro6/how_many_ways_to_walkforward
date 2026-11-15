@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite the paper and the archived release."
+title: "How Many Ways to Walk Forward? Design Snooping in Trading-Rule Backtests"
+type: software
+authors:
+  - family-names: Castro
+    given-names: Carlos A.
+    orcid: "https://orcid.org/0000-0001-8748-9918"
+    affiliation: "Universidad EAFIT, School of Economics and Finance, Medellín, Colombia"
+  - family-names: Castro
+    given-names: Rodrigo A.
+    orcid: "https://orcid.org/0000-0003-0010-7775"
+    affiliation: "Universidad de Valparaíso, Institute of Mathematics, Valparaíso, Chile"
+  - family-names: Almonacid
+    given-names: Paula M.
+    orcid: "https://orcid.org/0000-0001-6008-1728"
+    affiliation: "Universidad EAFIT, School of Economics and Finance, Medellín, Colombia"
+repository-code: "https://github.com/ccastro6/how_many_ways_to_walkforward"
+license: MIT
+keywords:
+  - walk-forward analysis
+  - backtest overfitting
+  - data snooping
+  - multiple testing
+  - technical trading rules
+  - bootstrap
+abstract: >-
+  Replication package for the paper. Walk-forward analysis removes rule-level data snooping but has
+  design settings of its own (training-window type and length, test-block length, gap). The package
+  measures the false-positive rate of choosing among 56 walk-forward designs by Monte Carlo, reports the
+  dependence between designs, and provides bootstrap tests across designs, with an illustration on a
+  century of US market returns and five regional indices.
