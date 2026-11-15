@@ -15,6 +15,9 @@ authors:
     given-names: Paula M.
     orcid: "https://orcid.org/0000-0001-6008-1728"
     affiliation: "Universidad EAFIT, School of Economics and Finance, Medellín, Colombia"
+doi: "10.5281/zenodo.24237608"
+version: "v1.0.0.0"
+date-released: "2026-11-15"
 repository-code: "https://github.com/ccastro6/how_many_ways_to_walkforward"
 license: MIT
 keywords:

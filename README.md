@@ -2,6 +2,8 @@
 
 **How Many Ways to Walk Forward? Design Snooping in Trading-Rule Backtests**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24237608.svg)](https://doi.org/10.5281/zenodo.24237608)
+
 This repository reproduces every number, table and figure in the paper, and the paper itself
 (`paper/main.pdf`).
 
