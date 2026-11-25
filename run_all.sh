@@ -19,5 +19,5 @@ echo "== empirical";        python3 experiments/empirical.py
 echo "== figures/tables";   python3 figures/build_figures.py
                             python3 tables/build_tables.py
                             node figures/render.js
-echo "== paper";            cd paper && python3 make_numbers.py && latexmk -pdf -interaction=nonstopmode -quiet main.tex
+echo "== paper";            cd paper && python3 make_numbers.py && latexmk -pdf -interaction=nonstopmode -quiet main.tex && python3 make_submission.py
 echo "done: paper/main.pdf"

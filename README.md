@@ -21,7 +21,8 @@ FETCH=1 bash run_all.sh    # download a fresh data vintage first (numbers may th
 `experiments/calibrate_garch.py`, the Monte Carlo (`experiments/run_mc_all.sh`,
 which ends with `experiments/mc_fullboot.py` and `experiments/mc_aggregate.py`), `experiments/empirical.py`,
 `figures/build_figures.py`, `tables/build_tables.py`, `figures/render.js`, and finally
-`paper/make_numbers.py` and `latexmk`. Every number quoted in the text is written into
+`paper/make_numbers.py`, `latexmk` and `paper/make_submission.py` (which writes the single-file
+submission version to `paper/submission/`). Every number quoted in the text is written into
 `paper/numbers.tex` by `make_numbers.py`; none is typed by hand. The two exceptions are the two figures
 of the first version of the study (211 rules), which are fixed in `make_numbers.py` and documented in
 `DECISIONS.md`. `DECISIONS.md` lists, with dates, every choice that affects a result and
@@ -43,7 +44,7 @@ every change made after first results.
 | `results/` | All outputs: `calibration/`, `mc/` (see `mc/SCHEMA.md`), `empirical/` (per-design results, dependence summaries, rule-selection counts) |
 | `figures/` | `build_figures.py` writes HTML+SVG pages to `html/`; `render.js` prints them to vector PDFs in `pdf/` |
 | `tables/` | `build_tables.py` writes each table as LaTeX (`tex/`, read by `paper/main.tex`) and as CSV (`csv/`) |
-| `paper/` | `main.tex`, `references.bib` (Crossref-verified), `numbers.tex`, `main.pdf` |
+| `paper/` | `main.tex` (Springer Nature `sn-jnl` class), `references.bib` (Crossref-verified), `numbers.tex`, `main.pdf`, `make_submission.py` and its output `submission/` |
 | `DECISIONS.md` | Dated log of the choices that affect results and of the changes made after first results |
 
 ## Figures and tables

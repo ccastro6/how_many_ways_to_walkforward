@@ -95,3 +95,20 @@ No replication was dropped.
    HTML. No number changes.
 
 No design, rule, test, seed or sample was changed in this revision other than as listed above.
+
+**2026-11-24. Manuscript revised and moved to the Springer Nature template.** No code, seed, design,
+rule, test or result changed, and every number in the text is unchanged.
+
+1. The abstract and introduction state the relation to Rossi and Inoue (2012), Hansen and Timmermann
+   (2012) and the Reality Check explicitly.
+2. The shared-benchmark effect, previously a footnote, is a main result: Proposition 1 in Section 6.2
+   gives the correlation of two strategies against cash and against buy-and-hold, with the
+   equity-premium result next to it.
+3. Section 3.4 describes the computation (constant-time window statistics, joint resampling,
+   warp-speed Monte Carlo); the timing quoted is the stored run time of the GARCH null
+   (`results/mc/meta_garch_t_p0_s101.json`, 510 seconds).
+4. Explanations of basic terms were shortened.
+5. The paper uses the Springer Nature class `sn-jnl` (`sn-basic` reference style). Tables are set in
+   footnote size to fit its text width. `paper/make_submission.py` writes a single-file version of the
+   manuscript to `paper/submission/`.
+

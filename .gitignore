@@ -12,3 +12,5 @@ __pycache__/
 *.fls
 *.synctex.gz
 *.toc
+!paper/submission/main.bbl
+paper/submission.zip
